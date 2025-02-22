@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0a0a0a;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: rgba(10, 10, 10, 0.9);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a0eaff;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(135deg, #111, #222);
+}
+
+#hero h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #00aaff, #0077cc);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 170, 255, 0.3);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #0088cc, #005599);
+    box-shadow: 0 6px 14px rgba(0, 170, 255, 0.5);
+}
+
+#about, #services, #contact {
+    padding: 100px 0;
+    text-align: center;
+    background: #111;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: #222;
+    padding: 25px;
+    border-radius: 12px;
+    width: 30%;
+    margin: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.service:hover {
+    background: #333;
+    transform: scale(1.05);
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 6px;
+    background: #222;
+    color: #fff;
+}
+
+button {
+    background: linear-gradient(135deg, #00aaff, #0077cc);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 170, 255, 0.3);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0088cc, #005599);
+    box-shadow: 0 6px 14px rgba(0, 170, 255, 0.5);
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
